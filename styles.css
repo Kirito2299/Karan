@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  margin:0;
+  padding-top: 25px;
+}
+
+.img{
+  position: absolute;
+  margin: 14% 15% auto 10%;
+}
+
+.img1{
+  position: absolute;
+  margin: 5% 5% 5% -10em;
+}
+
+.head{
+  font-size: 5.625rem;
+  font-family: 'Calligraffitti', cursive;
+}
+
+.top{
+  color:#39bdc8;
+  background-color: #E0EBE8;
+  background-image: url("water.jpg");
+  margin-top: 0;
+  font-family: 'Rancho', cursive;
+  text-align: center;
+  background-image: url("CSS-Mysite/CSS - My Site Images/water.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.p{
+  display: inline-block;
+  font-size: 200%;
+  position: relative;
+  left: 25%;
+  text-indent: 50px;
+  margin-bottom: 5%;
+  padding-top: 35px;
+  font-family: 'Satisfy', cursive;
+}
+.p:active{
+  color: black;
+}
+
+.p1{
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.middle{
+  font-family: 'Satisfy', cursive;
+  width: 50%;
+  margin: 100px auto auto auto;
+}
+
+.profile{
+  width: 50%;
+  margin: 20px auto 90px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.img3{
+  border-radius: 50%;
+}
+
+.skill-row{
+  width:80%;
+  margin: 40px auto 90px auto;
+  text-align: left;
+  font-size: 20px;
+}
+
+.img4{
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  width:25%;
+}
+
+.img5{
+  border-radius: 50%;
+  float:right;
+  margin-left: 60px;
+  width: 25%;
+}
+
+.head1{
+  font-size: 2rem;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  text-decoration: underline;
+}
+
+.head2{
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #39bdc8;
+  border-width:5px;
+  width: 6%;
+}
+
+.footer-link{
+  color: purple;
+  margin: 60px;
+  text-decoration: none;
+
+}
+
+.footer-link:hover{
+  color: gold;
+}
+
+.footer-link:active{
+  color: red;
+}
+
+h3{
+  color: #11999E;
+  margin-bottom: 1.5rem;
+}
+
+.contact-me{
+  text-align: center;
+  margin: 90px auto auto auto;
+}
+
+.des{
+  font-size: 20px;
+  margin: auto auto 70px auto;
+}
+
+.p2{
+  color: #11999E;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+
+.btn{
+  background-color: #dff0ea;
+  color: #11999E;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 2px gray;
+}
+
+.btn:hover{
+  color: #dff0ea;
+  background-color: #11999E;
+  box-shadow: 0 0 30px 2px darkgray;
+}
+
+.btn:active{
+  color: black;
+  background-color: #fff5eb;
+  box-shadow: 0 0 30px 2px darkgray;
+}
+
+.bottom{
+  background-color: black;
+  margin: 70px auto auto auto;
+  padding-bottom: 0;
+  font-family: 'Satisfy', cursive;
+  padding: 30px
+}
+
+@@media (max-width: 1028px) {
+  .top{
+    text-align: center;
+  }
+}
